@@ -3,25 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Rajan Tiwari Porfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
         }
         header {
+            text-align: center;
+            padding: 50px;
             background-color: #0078d7;
             color: white;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .hero {
+            text-align: center;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: #0078d7;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .projects img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
             padding: 20px;
+            background: #f1f1f1;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <h1>Hi, I am Rajan Tiwari</h1>
+        <p>Automotive Engineering | Cybersecurity Specialist</p>
+        <a href="#projects" class="cta-button">View My Projects</a>
     </header>
-    <p>Hello! I'm Rajan Tiwari, and this is my online portfolio.</p>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I specialize in designing secure vehicle communication systems using protocols like CAN, LIN, and FlexRay.</p>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project Title 1</h3>
+            <p>Short description of the project.</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Your Name | Contact: your.email@example.com</p>
+    </footer>
 </body>
 </html>
